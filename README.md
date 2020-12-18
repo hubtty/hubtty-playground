@@ -1,6 +1,7 @@
 # hubtty-playground
 
 A playground for testing [hubtty](https://github.com/mandre/hubtty).
+Now with a new line.
 
 You may want to modify hubtty to use this repo when starting from a fresh database:
 ```
@@ -25,7 +26,7 @@ You may want to modify hubtty to use this repo when starting from a fresh databa
 +        #     remote = sync.get('user/repos?page=%d&per_page=100' % page)
 +        #     for r in remote:
 +        #         remote_keys.add(r['full_name'])
-+        #         remote_desc[r['full_name']] = r.get('description', '')
++        #         remote_desc[r['full_name']] = (r.get('description', '') or '').replace('\r','')
 +        #     page = page + 1
 
          with app.db.getSession() as session:
