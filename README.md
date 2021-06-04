@@ -1,6 +1,6 @@
 # hubtty-playground
 
-A playground for testing [hubtty](https://github.com/mandre/hubtty).
+A cool playground for testing [hubtty](https://github.com/mandre/hubtty).
 
 You may want to modify hubtty to use this repo when starting from a fresh database:
 ```
