@@ -19,8 +19,8 @@ You may want to modify hubtty to use this repo when starting from a fresh databa
 -                remote_desc[r['full_name']] = r.get('description', '')
 -            page = page + 1
 +        # remote = set()
-+        remote_keys = set(['mandre/hubtty-playground'])
-+        remote_desc = {'mandre/hubtty-playground':''}
++        remote_keys = set(['hubtty/hubtty-playground'])
++        remote_desc = {'hubtty/hubtty-playground':''}
 +        # while page == 1 or len(remote) > 0:
 +        #     remote = sync.get('user/repos?page=%d&per_page=100' % page)
 +        #     for r in remote:
