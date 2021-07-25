@@ -6,7 +6,7 @@ func TestReverseRunes(t *testing.T) {
 	cases := []struct {
 		in, want string
 	}{
-		{"Hello, world", "dlrow ,olleH"},
+		{"Helo, world", "dlrow ,olleH"},
 		{"Hello, 世界", "界世 ,olleH"},
 		{"", ""},
 	}
